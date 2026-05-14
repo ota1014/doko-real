@@ -165,6 +165,26 @@ nav a:hover{color:var(--primary);}
 
 .spot-content{max-width:860px;margin:0 auto;padding:40px 24px;}
 
+/* ========== PLATFORM TABS ========== */
+.platform-tabs{
+  display:flex;gap:8px;flex-wrap:wrap;
+  margin-bottom:24px;
+}
+.platform-tab{
+  display:flex;align-items:center;gap:6px;
+  padding:7px 16px;border-radius:50px;
+  border:1.5px solid var(--border);
+  font-size:.82rem;font-weight:600;
+  cursor:pointer;transition:.2s;background:#fff;
+}
+.platform-tab:hover{border-color:currentColor;opacity:.8;}
+.platform-tab.active{color:#fff;border-color:transparent;}
+.platform-tab[data-platform="all"].active{background:var(--navy);}
+.platform-tab[data-platform="youtube"].active{background:#FF0000;}
+.platform-tab[data-platform="shorts"].active{background:#FF0000;}
+.platform-tab[data-platform="instagram"].active{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);}
+.platform-tab[data-platform="tiktok"].active{background:#010101;color:#fff;}
+
 /* ========== VIDEO SECTION ========== */
 .video-section{margin-bottom:48px;}
 .video-section-title{
@@ -172,6 +192,25 @@ nav a:hover{color:var(--primary);}
   border-left:3px solid var(--primary);
   padding-left:12px;margin-bottom:20px;
 }
+
+/* プラットフォーム別グループ */
+.platform-group{margin-bottom:32px;}
+.platform-group[data-platform]{transition:opacity .2s;}
+.platform-group.hidden{display:none;}
+
+/* プラットフォームラベル */
+.platform-label{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:.78rem;font-weight:700;letter-spacing:.05em;
+  padding:3px 10px;border-radius:20px;color:#fff;
+  margin-bottom:14px;
+}
+.platform-label.yt{background:#FF0000;}
+.platform-label.shorts{background:#FF0000;}
+.platform-label.ig{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);}
+.platform-label.tt{background:#010101;}
+
+/* 横型動画グリッド（YouTube通常） */
 .video-grid{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
@@ -189,6 +228,47 @@ nav a:hover{color:var(--primary);}
 .video-caption{
   padding:10px 12px;background:#fff;
   font-size:.82rem;color:var(--text-sub);
+}
+
+/* 縦型動画グリッド（Shorts / Reels / TikTok） */
+.video-grid-vertical{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:20px;
+}
+.video-wrap-vertical{
+  border-radius:var(--radius);overflow:hidden;
+  box-shadow:var(--shadow);
+  background:#000;
+}
+.video-wrap-vertical iframe{
+  display:block;width:100%;
+  aspect-ratio:9/16;border:none;
+}
+
+/* Instagram embed */
+.ig-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:20px;
+}
+.ig-grid .instagram-media{
+  min-width:unset !important;
+  width:100% !important;
+  margin:0 !important;
+  border-radius:var(--radius) !important;
+}
+
+/* TikTok embed */
+.tt-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:20px;
+}
+.tt-grid .tiktok-embed{
+  margin:0 !important;
+  min-width:unset !important;
+  border-radius:var(--radius) !important;
 }
 
 /* ========== INFO TABLE ========== */
