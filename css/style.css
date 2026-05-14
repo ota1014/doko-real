@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@600;700;800&display=swap');
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+:root{
+  --primary:#FF6B4A;
+  --primary-dark:#E85530;
+  --navy:#1A1A2E;
+  --text:#2D2D2D;
+  --text-sub:#666;
+  --bg:#FAFAFA;
+  --card-bg:#FFFFFF;
+  --border:#E8E8E8;
+  --radius:12px;
+  --shadow:0 2px 16px rgba(0,0,0,.08);
+}
+
+body{font-family:'Noto Sans JP',sans-serif;color:var(--text);background:var(--bg);line-height:1.7;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+
+/* ========== HEADER ========== */
+header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(255,255,255,.95);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+  padding:0 24px;
+  height:60px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.logo{
+  font-family:'Poppins',sans-serif;
+  font-size:1.3rem;font-weight:800;
+  color:var(--navy);
+  letter-spacing:-.5px;
+}
+.logo span{color:var(--primary);}
+nav{display:flex;gap:24px;font-size:.85rem;font-weight:500;}
+nav a:hover{color:var(--primary);}
+
+/* ========== HERO ========== */
+.hero{
+  background:linear-gradient(135deg,var(--navy) 0%,#2D1B69 100%);
+  color:#fff;
+  padding:80px 24px 60px;
+  text-align:center;
+}
+.hero-eyebrow{
+  display:inline-block;
+  background:var(--primary);
+  color:#fff;
+  font-size:.75rem;font-weight:700;
+  letter-spacing:.1em;
+  padding:4px 12px;border-radius:20px;
+  margin-bottom:16px;
+}
+.hero h1{
+  font-family:'Poppins',sans-serif;
+  font-size:clamp(2rem,5vw,3.2rem);
+  font-weight:800;line-height:1.2;
+  margin-bottom:16px;
+}
+.hero h1 .accent{color:var(--primary);}
+.hero p{font-size:1rem;opacity:.8;max-width:520px;margin:0 auto 32px;}
+.hero-search{
+  display:flex;max-width:480px;margin:0 auto;
+  background:#fff;border-radius:50px;overflow:hidden;
+  box-shadow:0 4px 24px rgba(0,0,0,.2);
+}
+.hero-search input{
+  flex:1;border:none;outline:none;
+  padding:14px 20px;font-size:.95rem;
+  font-family:'Noto Sans JP',sans-serif;
+}
+.hero-search button{
+  background:var(--primary);color:#fff;border:none;
+  padding:0 24px;font-weight:700;font-size:.9rem;
+  cursor:pointer;transition:background .2s;
+}
+.hero-search button:hover{background:var(--primary-dark);}
+
+/* ========== SECTION ========== */
+.section{padding:60px 24px;}
+.section-inner{max-width:1100px;margin:0 auto;}
+.section-title{
+  font-size:1.4rem;font-weight:700;
+  margin-bottom:8px;
+}
+.section-title span{color:var(--primary);}
+.section-sub{color:var(--text-sub);font-size:.9rem;margin-bottom:32px;}
+
+/* ========== AREA TABS ========== */
+.area-tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px;}
+.area-tab{
+  padding:8px 18px;border-radius:50px;
+  border:1.5px solid var(--border);
+  font-size:.85rem;font-weight:500;
+  cursor:pointer;transition:.2s;background:#fff;
+}
+.area-tab:hover,.area-tab.active{
+  background:var(--primary);color:#fff;border-color:var(--primary);
+}
+
+/* ========== SPOT CARD ========== */
+.spots-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:24px;
+}
+.spot-card{
+  background:var(--card-bg);
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  transition:transform .2s,box-shadow .2s;
+}
+.spot-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 8px 32px rgba(0,0,0,.12);
+}
+.spot-card-thumb{
+  position:relative;height:180px;overflow:hidden;
+  background:var(--navy);
+}
+.spot-card-thumb img{width:100%;height:100%;object-fit:cover;}
+.spot-card-tag{
+  position:absolute;top:12px;left:12px;
+  background:var(--primary);color:#fff;
+  font-size:.7rem;font-weight:700;
+  padding:3px 10px;border-radius:20px;
+}
+.spot-card-video-count{
+  position:absolute;bottom:12px;right:12px;
+  background:rgba(0,0,0,.7);color:#fff;
+  font-size:.75rem;font-weight:500;
+  padding:3px 10px;border-radius:20px;
+  display:flex;align-items:center;gap:4px;
+}
+.spot-card-body{padding:16px;}
+.spot-card-area{font-size:.75rem;color:var(--text-sub);margin-bottom:4px;}
+.spot-card-name{font-size:1.05rem;font-weight:700;margin-bottom:8px;}
+.spot-card-desc{font-size:.85rem;color:var(--text-sub);line-height:1.6;}
+.spot-card-footer{
+  padding:12px 16px;
+  border-top:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+}
+.spot-card-cta{
+  color:var(--primary);font-size:.85rem;font-weight:700;
+  display:flex;align-items:center;gap:4px;
+}
+
+/* ========== SPOT DETAIL PAGE ========== */
+.spot-hero{
+  background:var(--navy);color:#fff;
+  padding:48px 24px 40px;
+}
+.spot-hero-inner{max-width:860px;margin:0 auto;}
+.breadcrumb{font-size:.8rem;opacity:.6;margin-bottom:12px;}
+.breadcrumb a{color:#fff;}
+.spot-hero h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;margin-bottom:8px;}
+.spot-hero-meta{display:flex;gap:16px;flex-wrap:wrap;font-size:.85rem;opacity:.8;}
+.spot-hero-meta span{display:flex;align-items:center;gap:4px;}
+
+.spot-content{max-width:860px;margin:0 auto;padding:40px 24px;}
+
+/* ========== VIDEO SECTION ========== */
+.video-section{margin-bottom:48px;}
+.video-section-title{
+  font-size:1.1rem;font-weight:700;
+  border-left:3px solid var(--primary);
+  padding-left:12px;margin-bottom:20px;
+}
+.video-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:20px;
+}
+.video-wrap{
+  border-radius:var(--radius);overflow:hidden;
+  box-shadow:var(--shadow);
+  background:#000;
+}
+.video-wrap iframe{
+  display:block;width:100%;
+  aspect-ratio:16/9;border:none;
+}
+.video-caption{
+  padding:10px 12px;background:#fff;
+  font-size:.82rem;color:var(--text-sub);
+}
+
+/* ========== INFO TABLE ========== */
+.info-section{margin-bottom:48px;}
+.info-table{width:100%;border-collapse:collapse;font-size:.9rem;}
+.info-table th,.info-table td{
+  padding:12px 16px;
+  border-bottom:1px solid var(--border);
+  text-align:left;
+}
+.info-table th{
+  width:120px;font-weight:700;
+  background:#F5F5F5;color:var(--text-sub);
+}
+
+/* ========== AFFILIATE CTA ========== */
+.affiliate-section{
+  background:linear-gradient(135deg,var(--navy),#2D1B69);
+  color:#fff;border-radius:var(--radius);
+  padding:32px;margin-bottom:48px;
+  text-align:center;
+}
+.affiliate-section h3{font-size:1.2rem;font-weight:700;margin-bottom:8px;}
+.affiliate-section p{opacity:.8;font-size:.9rem;margin-bottom:24px;}
+.affiliate-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+.btn-affiliate{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 24px;border-radius:50px;
+  font-weight:700;font-size:.9rem;
+  transition:.2s;
+}
+.btn-jalan{background:#FF6B00;color:#fff;}
+.btn-jalan:hover{background:#E55E00;}
+.btn-ikyu{background:#8B0000;color:#fff;}
+.btn-ikyu:hover{background:#6B0000;}
+.btn-tabelog{background:#E53935;color:#fff;}
+.btn-tabelog:hover{background:#C62828;}
+
+/* ========== ADSENSE PLACEHOLDER ========== */
+.ad-slot{
+  background:#F0F0F0;border:1px dashed #CCC;
+  border-radius:8px;padding:16px;
+  text-align:center;color:#999;font-size:.8rem;
+  margin:24px 0;min-height:90px;
+  display:flex;align-items:center;justify-content:center;
+}
+
+/* ========== FOOTER ========== */
+footer{
+  background:var(--navy);color:rgba(255,255,255,.7);
+  padding:40px 24px;text-align:center;
+  font-size:.85rem;
+}
+footer .footer-logo{
+  font-family:'Poppins',sans-serif;
+  font-size:1.4rem;font-weight:800;color:#fff;
+  margin-bottom:12px;
+}
+footer .footer-logo span{color:var(--primary);}
+footer p{margin-bottom:8px;}
+footer .footer-links{display:flex;gap:20px;justify-content:center;margin-bottom:16px;}
+footer .footer-links a:hover{color:#fff;}
+
+/* ========== REVEAL ANIMATION ========== */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .6s,transform .6s;}
+.reveal.visible{opacity:1;transform:none;}
+.delay-1{transition-delay:.1s;}.delay-2{transition-delay:.2s;}.delay-3{transition-delay:.3s;}
+
+/* ========== RESPONSIVE ========== */
+@media(max-width:600px){
+  header{padding:0 16px;}
+  nav{display:none;}
+  .hero{padding:60px 16px 48px;}
+  .section{padding:40px 16px;}
+  .spot-content{padding:32px 16px;}
+  .affiliate-btns{flex-direction:column;align-items:center;}
+}
