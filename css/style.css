@@ -90,6 +90,27 @@ nav a:hover{color:var(--primary);}
 .section-title span{color:var(--primary);}
 .section-sub{color:var(--text-sub);font-size:.9rem;margin-bottom:32px;}
 
+/* ========== REGION TABS ========== */
+.region-tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px;}
+.region-tab{
+  padding:10px 24px;border-radius:50px;
+  border:2px solid var(--border);
+  font-size:.9rem;font-weight:700;
+  cursor:pointer;transition:.2s;background:#fff;
+  display:flex;align-items:center;gap:6px;
+}
+.region-tab:hover{border-color:var(--navy);color:var(--navy);}
+.region-tab.active{background:var(--navy);color:#fff;border-color:var(--navy);}
+.region-tab.coming{opacity:.45;cursor:default;}
+.region-tab.coming:hover{border-color:var(--border);color:var(--text);}
+.region-content{display:none;}
+.region-content.active{display:block;}
+.region-coming-soon{
+  text-align:center;padding:80px 24px;color:var(--text-sub);
+}
+.region-coming-soon .rcs-icon{font-size:2.5rem;margin-bottom:12px;}
+.region-coming-soon h3{font-size:1.1rem;font-weight:700;margin-bottom:8px;color:var(--text);}
+
 /* ========== AREA TABS ========== */
 .area-tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px;}
 .area-tab{
@@ -101,6 +122,9 @@ nav a:hover{color:var(--primary);}
 .area-tab:hover,.area-tab.active{
   background:var(--primary);color:#fff;border-color:var(--primary);
 }
+
+/* ========== AREA GROUP ========== */
+.area-group{margin-bottom:8px;}
 
 /* ========== SPOT CARD ========== */
 .spots-grid{
