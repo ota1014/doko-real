@@ -4,6 +4,67 @@ const io = new IntersectionObserver(entries => {
 }, { threshold: 0.12 });
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
+// ===== NAV DROPDOWN =====
+document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+  const btn = dropdown.querySelector('.nav-btn');
+  const menu = dropdown.querySelector('.nav-dropdown-menu');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const isOpen = menu.classList.contains('open');
+    document.querySelectorAll('.nav-dropdown-menu').forEach(m => m.classList.remove('open'));
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('open'));
+    if (!isOpen) { menu.classList.add('open'); btn.classList.add('open'); }
+  });
+});
+document.addEventListener('click', () => {
+  document.querySelectorAll('.nav-dropdown-menu').forEach(m => m.classList.remove('open'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('open'));
+});
+
+// ===== THEME FILTER (静岡ページのみ動作) =====
+function filterByTheme(theme) {
+  const groups = document.querySelectorAll('.area-group');
+  if (!theme) {
+    document.querySelectorAll('.spot-card').forEach(c => c.style.display = '');
+    groups.forEach(g => g.style.display = '');
+    document.querySelectorAll('.nav-menu-item[data-filter-theme]').forEach(el => el.classList.remove('active-theme'));
+    const allItem = document.querySelector('.nav-menu-item[data-filter-theme=""]');
+    if (allItem) allItem.classList.add('active-theme');
+    return;
+  }
+  groups.forEach(g => {
+    const cards = g.querySelectorAll('.spot-card');
+    let visible = false;
+    cards.forEach(c => {
+      const themes = (c.dataset.theme || '').split(' ');
+      const match = themes.includes(theme);
+      c.style.display = match ? '' : 'none';
+      if (match) visible = true;
+    });
+    g.style.display = visible ? '' : 'none';
+  });
+  document.querySelectorAll('.nav-menu-item[data-filter-theme]').forEach(el => {
+    el.classList.toggle('active-theme', el.dataset.filterTheme === theme);
+  });
+}
+
+document.querySelectorAll('.nav-menu-item[data-filter-theme]').forEach(item => {
+  item.addEventListener('click', e => {
+    e.preventDefault();
+    const theme = item.dataset.filterTheme;
+    filterByTheme(theme);
+    document.querySelectorAll('.nav-dropdown-menu').forEach(m => m.classList.remove('open'));
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('open'));
+    const section = document.querySelector('.section');
+    if (section) window.scrollTo({ top: section.offsetTop - 70, behavior: 'smooth' });
+  });
+});
+
+// URLパラメータからテーマ適用（外部リンク・トップページからの遷移対応）
+const urlTheme = new URLSearchParams(location.search).get('theme');
+if (urlTheme) filterByTheme(urlTheme);
+
 // Region tab switching (shizuoka page)
 const regionTabs = document.querySelectorAll('.region-tab');
 const regionContents = document.querySelectorAll('.region-content');

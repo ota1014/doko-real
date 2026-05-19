@@ -12,10 +12,33 @@
 <header>
   <a href="/" class="logo">ドコ<span>リアル</span></a>
   <nav>
-    <a href="#numazu">沼津市</a>
-    <a href="#mishima">三島市</a>
-    <a href="#fuji">富士宮市</a>
-    <a href="#izu">伊豆</a>
+    <div class="nav-dropdown">
+      <button class="nav-btn">エリア <span class="caret">▾</span></button>
+      <div class="nav-dropdown-menu">
+        <a href="/shizuoka/" class="nav-menu-item">🗾 静岡 <span class="badge badge-live">掲載中</span></a>
+        <div class="nav-menu-divider"></div>
+        <span class="nav-menu-item coming">🌸 京都 <span class="badge badge-soon">準備中</span></span>
+        <span class="nav-menu-item coming">🐻 北海道 <span class="badge badge-soon">準備中</span></span>
+        <span class="nav-menu-item coming">🌺 沖縄 <span class="badge badge-soon">準備中</span></span>
+        <span class="nav-menu-item coming">🗼 東京近郊 <span class="badge badge-soon">準備中</span></span>
+        <span class="nav-menu-item coming">🏯 大阪・関西 <span class="badge badge-soon">準備中</span></span>
+      </div>
+    </div>
+    <div class="nav-dropdown">
+      <button class="nav-btn">テーマ <span class="caret">▾</span></button>
+      <div class="nav-dropdown-menu">
+        <a href="#" class="nav-menu-item active-theme" data-filter-theme="">🔄 すべて</a>
+        <div class="nav-menu-divider"></div>
+        <a href="#" class="nav-menu-item" data-filter-theme="scenic">🏔 絶景</a>
+        <a href="#" class="nav-menu-item" data-filter-theme="nature">🌿 自然</a>
+        <a href="#" class="nav-menu-item" data-filter-theme="onsen">♨️ 温泉</a>
+        <a href="#" class="nav-menu-item" data-filter-theme="gourmet">🍣 グルメ</a>
+        <a href="#" class="nav-menu-item" data-filter-theme="shrine">⛩ 神社・寺</a>
+        <a href="#" class="nav-menu-item" data-filter-theme="camp">⛺ キャンプ</a>
+        <a href="#" class="nav-menu-item" data-filter-theme="history">🏯 歴史・世界遺産</a>
+        <a href="#" class="nav-menu-item" data-filter-theme="pilgrimage">🎌 聖地巡礼</a>
+      </div>
+    </div>
   </nav>
 </header>
 
@@ -58,7 +81,7 @@
         <div class="area-section-label" id="numazu" style="margin:16px 0 16px;font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--text-sub);">📍 沼津市</div>
         <div class="spots-grid">
 
-          <a href="../spots/numazu-port/" class="spot-card" data-area="numazu">
+          <a href="../spots/numazu-port/" class="spot-card" data-area="numazu" data-theme="gourmet">
             <div class="spot-card-thumb">
               <img src="https://numazuminato.com/wp/wp-content/uploads/2024/04/04.jpg" alt="沼津港">
               <span class="spot-card-tag">グルメ</span>
@@ -72,7 +95,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/numazu-aquarium/" class="spot-card" data-area="numazu">
+          <a href="../spots/numazu-aquarium/" class="spot-card" data-area="numazu" data-theme="experience">
             <div class="spot-card-thumb">
               <img src="https://www.numazu-deepsea.com/cmswp/wp-content/themes/numazu/assets/img/top/img_appearance.webp" alt="沼津港深海水族館">
               <span class="spot-card-tag">水族館</span>
@@ -86,7 +109,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/numazu-byuo/" class="spot-card" data-area="numazu">
+          <a href="../spots/numazu-byuo/" class="spot-card" data-area="numazu" data-theme="scenic">
             <div class="spot-card-thumb">
               <img src="https://numazu-byuo.jp/images/top/main1.jpg" alt="びゅうお">
               <span class="spot-card-tag">展望</span>
@@ -100,7 +123,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/numazu-port-dining/" class="spot-card" data-area="numazu">
+          <a href="../spots/numazu-port-dining/" class="spot-card" data-area="numazu" data-theme="gourmet">
             <div class="spot-card-thumb">
               <img src="https://www.minato83.com/cmswp/wp-content/themes/minato83/assets/img/top/img_mv_01.webp" alt="港飲食店街">
               <span class="spot-card-tag">グルメ</span>
@@ -114,7 +137,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/osezaki/" class="spot-card" data-area="numazu">
+          <a href="../spots/osezaki/" class="spot-card" data-area="numazu" data-theme="nature scenic">
             <div class="spot-card-thumb">
               <img src="https://numazukanko.jp/image/rendering/attraction_image/32/trim.1180/3/2?v=2fdab75184b08899ff8349ca9e848d5cdef54ec3" alt="大瀬崎">
               <span class="spot-card-tag">自然・海</span>
@@ -128,7 +151,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/senbonmatsubara/" class="spot-card" data-area="numazu">
+          <a href="../spots/senbonmatsubara/" class="spot-card" data-area="numazu" data-theme="nature scenic">
             <div class="spot-card-thumb">
               <img src="https://numazukanko.jp/image/rendering/attraction_image/931/trim.1180/3/2?v=3a63e055f53e2e9a6d9481e33821f05e3fed30dc" alt="千本松原">
               <span class="spot-card-tag">自然・海</span>
@@ -142,7 +165,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/numazu-goyotei/" class="spot-card" data-area="numazu">
+          <a href="../spots/numazu-goyotei/" class="spot-card" data-area="numazu" data-theme="history">
             <div class="spot-card-thumb">
               <img src="https://numazukanko.jp/image/rendering/attraction_image/92/trim.1180/3/2?v=092d307eee179709e1657419862ba74875e79941" alt="御用邸">
               <span class="spot-card-tag">歴史</span>
@@ -156,7 +179,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/numazu-ino/" class="spot-card" data-area="numazu">
+          <a href="../spots/numazu-ino/" class="spot-card" data-area="numazu" data-theme="gourmet experience">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Fish_auction_in_Numazu_%2844599%29.jpg" alt="魚市場INO">
               <span class="spot-card-tag">体験・グルメ</span>
@@ -170,7 +193,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/kanukiyama/" class="spot-card" data-area="numazu">
+          <a href="../spots/kanukiyama/" class="spot-card" data-area="numazu" data-theme="scenic nature">
             <div class="spot-card-thumb">
               <img src="https://numazukanko.jp/image/rendering/attraction_image/160/trim.1180/3/2?v=af489220fd2e820416f84420973cf6567487fdd1" alt="香貫山">
               <span class="spot-card-tag">ハイキング</span>
@@ -184,7 +207,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/lovelinevision/" class="spot-card" data-area="numazu">
+          <a href="../spots/lovelinevision/" class="spot-card" data-area="numazu" data-theme="pilgrimage">
             <div class="spot-card-thumb">
               <img src="https://numazukanko.jp/image/rendering/feature_page_image/226/trim.1200/1200/500?v=9d58544fc24a397002976a39696cdca1f0f0342d" alt="ラブライブ聖地">
               <span class="spot-card-tag">聖地巡礼</span>
@@ -206,7 +229,7 @@
         <div class="area-section-label" id="atami" style="margin:40px 0 16px;font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--text-sub);">📍 熱海市</div>
         <div class="spots-grid">
 
-          <a href="../spots/atami/" class="spot-card" data-area="atami">
+          <a href="../spots/atami/" class="spot-card" data-area="atami" data-theme="onsen scenic">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Atami_Moon_terrace.jpg" alt="熱海">
               <span class="spot-card-tag">温泉・観光</span>
@@ -228,7 +251,7 @@
         <div class="area-section-label" id="mishima" style="margin:40px 0 16px;font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--text-sub);">📍 三島市・清水町</div>
         <div class="spots-grid">
 
-          <a href="../spots/mishima/" class="spot-card" data-area="mishima">
+          <a href="../spots/mishima/" class="spot-card" data-area="mishima" data-theme="gourmet nature">
             <div class="spot-card-thumb">
               <img src="https://www.mishima-kankou.com/app/uploads/2019/06/e6ea6a3cc64ca6d008f7b976b067bca0.jpg" alt="三島">
               <span class="spot-card-tag">グルメ・観光</span>
@@ -242,7 +265,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/mishima-taisha/" class="spot-card" data-area="mishima">
+          <a href="../spots/mishima-taisha/" class="spot-card" data-area="mishima" data-theme="shrine">
             <div class="spot-card-thumb">
               <img src="https://www.mishimataisha.or.jp/wordpress/wp-content/uploads/2022/10/0401-DSC_1966.jpg" alt="三嶋大社">
               <span class="spot-card-tag">神社</span>
@@ -256,7 +279,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/mishima-skywalk/" class="spot-card" data-area="mishima">
+          <a href="../spots/mishima-skywalk/" class="spot-card" data-area="mishima" data-theme="scenic">
             <div class="spot-card-thumb">
               <img src="https://mishima-skywalk.jp/wordpress/wp-content/uploads/2026/01/mv02-1600x900-1.jpg" alt="三島スカイウォーク">
               <span class="spot-card-tag">絶景</span>
@@ -270,7 +293,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/kakitagawa/" class="spot-card" data-area="mishima">
+          <a href="../spots/kakitagawa/" class="spot-card" data-area="mishima" data-theme="nature">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Kakitagawa_Park_Wakima_Springs_1.jpg" alt="柿田川">
               <span class="spot-card-tag">自然・湧水</span>
@@ -284,7 +307,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/genbegawa/" class="spot-card" data-area="mishima">
+          <a href="../spots/genbegawa/" class="spot-card" data-area="mishima" data-theme="nature">
             <div class="spot-card-thumb">
               <img src="https://www.mishima-kankou.com/app/uploads/2019/06/e6ea6a3cc64ca6d008f7b976b067bca0.jpg" alt="源兵衛川">
               <span class="spot-card-tag">散策</span>
@@ -298,7 +321,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/rakujuen/" class="spot-card" data-area="mishima">
+          <a href="../spots/rakujuen/" class="spot-card" data-area="mishima" data-theme="history nature">
             <div class="spot-card-thumb">
               <img src="https://www.mishima-kankou.com/app/uploads/2019/12/2bd26c50551b5ed5a430974290a85ddf.jpg" alt="楽寿園">
               <span class="spot-card-tag">歴史・庭園</span>
@@ -320,7 +343,7 @@
         <div class="area-section-label" id="fuji" style="margin:40px 0 16px;font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--text-sub);">📍 富士宮市・富士市</div>
         <div class="spots-grid">
 
-          <a href="../spots/fujisan-hongu/" class="spot-card" data-area="fuji">
+          <a href="../spots/fujisan-hongu/" class="spot-card" data-area="fuji" data-theme="shrine">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Fujinomiya_Hongu_Sengen_Taisha_Honden.jpg" alt="富士山本宮浅間大社">
               <span class="spot-card-tag">神社・富士山</span>
@@ -334,7 +357,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/shiraito-falls/" class="spot-card" data-area="fuji">
+          <a href="../spots/shiraito-falls/" class="spot-card" data-area="fuji" data-theme="nature scenic">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Shiraito_Falls_%28Fujinomiya%29.jpg" alt="白糸の滝">
               <span class="spot-card-tag">自然</span>
@@ -348,7 +371,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/tanuki-lake/" class="spot-card" data-area="fuji">
+          <a href="../spots/tanuki-lake/" class="spot-card" data-area="fuji" data-theme="scenic nature">
             <div class="spot-card-thumb">
               <img src="https://fujinomiya.gr.jp/wp-content/uploads/2017/01/1a5c66c14c2f7046342636b38104f35e.jpg" alt="田貫湖">
               <span class="spot-card-tag">絶景・富士山</span>
@@ -362,7 +385,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/fumotoppara/" class="spot-card" data-area="fuji">
+          <a href="../spots/fumotoppara/" class="spot-card" data-area="fuji" data-theme="camp scenic">
             <div class="spot-card-thumb">
               <img src="https://fumotoppara.net/wp-content/uploads/2022/10/mv01_sp.jpg" alt="ふもとっぱら">
               <span class="spot-card-tag">キャンプ・富士山</span>
@@ -376,7 +399,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/asagiri-kogen/" class="spot-card" data-area="fuji">
+          <a href="../spots/asagiri-kogen/" class="spot-card" data-area="fuji" data-theme="nature camp">
             <div class="spot-card-thumb">
               <img src="https://fujinomiya.gr.jp/wp-content/uploads/2025/08/0b1f46cb1fbb86139a81ae57265506a9.jpg" alt="朝霧高原">
               <span class="spot-card-tag">高原・レジャー</span>
@@ -390,7 +413,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/obuchinanbasaba/" class="spot-card" data-area="fuji">
+          <a href="../spots/obuchinanbasaba/" class="spot-card" data-area="fuji" data-theme="scenic nature">
             <div class="spot-card-thumb">
               <img src="https://www.city.fuji.shizuoka.jp/images/1154/p4150170001_1.jpg" alt="大淵笹場">
               <span class="spot-card-tag">絶景・フォト</span>
@@ -412,7 +435,7 @@
         <div class="area-section-label" id="izu" style="margin:40px 0 16px;font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--text-sub);">📍 伊豆エリア（伊豆市・伊東市・伊豆の国市・西伊豆町・南伊豆町）</div>
         <div class="spots-grid">
 
-          <a href="../spots/shuzenji/" class="spot-card" data-area="izu">
+          <a href="../spots/shuzenji/" class="spot-card" data-area="izu" data-theme="onsen shrine">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Shuzenji_onsen_20110919_A.jpg" alt="修善寺">
               <span class="spot-card-tag">温泉・寺院</span>
@@ -426,7 +449,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/nirayama-hansharyo/" class="spot-card" data-area="izu">
+          <a href="../spots/nirayama-hansharyo/" class="spot-card" data-area="izu" data-theme="history">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Nirayama_Reverberatory_Furnace.jpg" alt="韮山反射炉">
               <span class="spot-card-tag">世界遺産</span>
@@ -440,7 +463,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/izu-panorama/" class="spot-card" data-area="izu">
+          <a href="../spots/izu-panorama/" class="spot-card" data-area="izu" data-theme="scenic">
             <div class="spot-card-thumb">
               <img src="https://www.panoramapark.co.jp/wp/wp-content/uploads/2025/10/TOP01-scaled.jpg" alt="伊豆パノラマパーク">
               <span class="spot-card-tag">絶景・ロープウェイ</span>
@@ -454,7 +477,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/joren-falls/" class="spot-card" data-area="izu">
+          <a href="../spots/joren-falls/" class="spot-card" data-area="izu" data-theme="nature scenic">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Joren_Falls_01.jpg" alt="浄蓮の滝">
               <span class="spot-card-tag">自然</span>
@@ -468,7 +491,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/jogasaki/" class="spot-card" data-area="izu">
+          <a href="../spots/jogasaki/" class="spot-card" data-area="izu" data-theme="nature scenic">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Jogasaki-tsuribashi.jpg" alt="城ヶ崎海岸">
               <span class="spot-card-tag">自然・絶景</span>
@@ -482,7 +505,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/omuroyama/" class="spot-card" data-area="izu">
+          <a href="../spots/omuroyama/" class="spot-card" data-area="izu" data-theme="scenic nature">
             <div class="spot-card-thumb">
               <img src="https://omuroyama.com/om2021/wp/wp-content/themes/omuro2021/img/btn_top_view.jpg" alt="大室山">
               <span class="spot-card-tag">絶景・ロープウェイ</span>
@@ -496,7 +519,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/dogashima/" class="spot-card" data-area="izu">
+          <a href="../spots/dogashima/" class="spot-card" data-area="izu" data-theme="nature scenic">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Dogashima_Tombolo_April_7_1033_2.jpg" alt="堂ヶ島">
               <span class="spot-card-tag">自然・クルーズ</span>
@@ -510,7 +533,7 @@
             <div class="spot-card-footer"><span class="spot-card-cta">動画を見る →</span></div>
           </a>
 
-          <a href="../spots/irozaki/" class="spot-card" data-area="izu">
+          <a href="../spots/irozaki/" class="spot-card" data-area="izu" data-theme="scenic nature">
             <div class="spot-card-thumb">
               <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Irozaki-Lighthouse.JPG" alt="石廊崎">
               <span class="spot-card-tag">絶景・岬</span>
