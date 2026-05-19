@@ -394,11 +394,112 @@ footer .footer-links a:hover{color:#fff;}
 .delay-1{transition-delay:.1s;}.delay-2{transition-delay:.2s;}.delay-3{transition-delay:.3s;}
 
 /* ========== RESPONSIVE ========== */
+
+/* --- 大画面対応（1400px+）--- */
+@media(min-width:1400px){
+  header{
+    padding:0 max(24px, calc((100vw - 1400px) / 2 + 24px));
+  }
+  .section{
+    padding-left:max(24px, calc((100vw - 1200px) / 2));
+    padding-right:max(24px, calc((100vw - 1200px) / 2));
+  }
+  .section-inner{max-width:1200px;}
+  .hero{padding:80px max(24px, calc((100vw - 960px) / 2)) 60px;}
+}
+
+/* --- タブレット（768px〜1024px）--- */
+@media(max-width:1024px){
+  .spots-grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));}
+  .video-grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));}
+}
+
+/* --- 小タブレット（600px〜768px）--- */
+@media(max-width:768px){
+  .section-inner{max-width:100%;}
+  .spots-grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
+  .region-tabs{
+    flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;padding-bottom:4px;gap:8px;
+  }
+  .region-tabs::-webkit-scrollbar{display:none;}
+  .area-tabs{
+    flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;padding-bottom:4px;
+  }
+  .area-tabs::-webkit-scrollbar{display:none;}
+  .area-tab{flex-shrink:0;}
+  .region-tab{flex-shrink:0;}
+  .platform-tabs{
+    flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .platform-tabs::-webkit-scrollbar{display:none;}
+  .platform-tab{flex-shrink:0;}
+}
+
+/* --- スマホ（〜600px）--- */
 @media(max-width:600px){
-  header{padding:0 16px;}
-  nav{display:none;}
-  .hero{padding:60px 16px 48px;}
-  .section{padding:40px 16px;}
-  .spot-content{padding:32px 16px;}
+  /* ヘッダー */
+  header{padding:0 16px;height:52px;}
+  .logo{font-size:1.1rem;}
+
+  /* ナビ：表示してコンパクトに */
+  nav{gap:2px;}
+  .nav-btn{padding:4px 8px;font-size:.78rem;}
+  .nav-btn .caret{display:none;}
+
+  /* ドロップダウン：右端ははみ出ないようright:0に */
+  .nav-dropdown:last-child .nav-dropdown-menu{left:auto;right:0;}
+  .nav-dropdown-menu{min-width:180px;font-size:.82rem;}
+  .nav-menu-item{padding:10px 14px;font-size:.82rem;}
+
+  /* ヒーロー */
+  .hero{padding:48px 16px 40px;}
+  .hero h1{font-size:clamp(1.7rem,7vw,2.4rem);}
+  .hero p{font-size:.9rem;}
+  .hero-search{max-width:100%;}
+  .hero-search input{padding:12px 16px;font-size:.88rem;}
+  .hero-search button{padding:0 18px;font-size:.85rem;}
+
+  /* セクション */
+  .section{padding:32px 16px;}
+  .section-title{font-size:1.2rem;}
+
+  /* タブ類 */
+  .region-tabs{
+    flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;padding-bottom:4px;gap:8px;
+  }
+  .region-tabs::-webkit-scrollbar{display:none;}
+  .region-tab{padding:8px 16px;font-size:.82rem;}
+  .area-tabs{
+    flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .area-tabs::-webkit-scrollbar{display:none;}
+  .area-tab{flex-shrink:0;padding:6px 14px;font-size:.8rem;}
+
+  /* カードグリッド */
+  .spots-grid{grid-template-columns:1fr;gap:16px;}
+  .spot-card-thumb{height:200px;}
+
+  /* 縦型動画 */
+  .video-grid{grid-template-columns:1fr;}
+  .video-grid-vertical{grid-template-columns:repeat(2,1fr);gap:12px;}
+  .ig-grid{grid-template-columns:1fr;}
+  .tt-grid{grid-template-columns:1fr;}
+
+  /* スポット詳細 */
+  .spot-content{padding:24px 16px;}
+  .spot-hero{padding:32px 16px 28px;}
+  .spot-hero h1{font-size:1.5rem;}
+
+  /* アフィリエイト */
   .affiliate-btns{flex-direction:column;align-items:center;}
+  .affiliate-section{padding:24px 16px;}
+
+  /* フッター */
+  footer{padding:32px 16px;}
+  footer .footer-links{flex-wrap:wrap;gap:12px;}
 }
