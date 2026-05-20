@@ -357,6 +357,12 @@ a.nav-menu-item:hover{background:var(--bg);color:var(--navy);}
   font-weight:700;font-size:.9rem;
   transition:.2s;
 }
+.btn-booking{background:#003580;color:#fff;}
+.btn-booking:hover{background:#00276B;}
+.btn-rakuten{background:#BF0000;color:#fff;}
+.btn-rakuten:hover{background:#990000;}
+.btn-klook{background:#FF5722;color:#fff;}
+.btn-klook:hover{background:#E64A19;}
 .btn-jalan{background:#FF6B00;color:#fff;}
 .btn-jalan:hover{background:#E55E00;}
 .btn-ikyu{background:#8B0000;color:#fff;}
