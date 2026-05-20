@@ -80,33 +80,34 @@ regionTabs.forEach(tab => {
   });
 });
 
-// Area tab filter (city-level, inside a region)
-const areaTabs = document.querySelectorAll('.area-tab');
-const areaGroups = document.querySelectorAll('.area-group');
-areaTabs.forEach(tab => {
+// Area tab filter (city-level, inside a region) — scoped to current region
+document.querySelectorAll('.area-tab').forEach(tab => {
   tab.addEventListener('click', () => {
-    areaTabs.forEach(t => t.classList.remove('active'));
+    const rc = tab.closest('.region-content');
+    rc.querySelectorAll('.area-tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     const area = tab.dataset.area;
-    areaGroups.forEach(g => {
+    rc.querySelectorAll('.area-group').forEach(g => {
       g.style.display = (!area || g.dataset.area === area) ? '' : 'none';
     });
   });
 });
 
-// Search filter
+// Search filter — scoped to active region
 const searchInput = document.querySelector('.hero-search input');
 const searchBtn = document.querySelector('.hero-search button');
 function doSearch() {
   if (!searchInput) return;
   const q = searchInput.value.trim().toLowerCase();
+  const rc = document.querySelector('.region-content.active') || document.querySelector('.region-content');
+  const activeGroups = rc.querySelectorAll('.area-group');
+  const activeTabs   = rc.querySelectorAll('.area-tab');
   if (!q) {
-    areaGroups.forEach(g => g.style.display = '');
-    areaTabs.forEach(t => { t.classList.remove('active'); if (!t.dataset.area) t.classList.add('active'); });
+    activeGroups.forEach(g => g.style.display = '');
+    activeTabs.forEach(t => { t.classList.remove('active'); if (!t.dataset.area) t.classList.add('active'); });
     return;
   }
-  let found = 0;
-  areaGroups.forEach(g => {
+  activeGroups.forEach(g => {
     const cards = g.querySelectorAll('.spot-card');
     let groupVisible = false;
     cards.forEach(c => {
@@ -116,9 +117,8 @@ function doSearch() {
       if (match) groupVisible = true;
     });
     g.style.display = groupVisible ? '' : 'none';
-    if (groupVisible) found++;
   });
-  areaTabs.forEach(t => t.classList.remove('active'));
+  activeTabs.forEach(t => t.classList.remove('active'));
 }
 if (searchBtn) searchBtn.addEventListener('click', doSearch);
 if (searchInput) searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });

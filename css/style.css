@@ -57,6 +57,7 @@ nav a:hover{color:var(--primary);}
   min-width:200px;z-index:200;overflow:hidden;
 }
 .nav-dropdown-menu.open{display:block;}
+.nav-dropdown:last-child .nav-dropdown-menu{left:auto;right:0;}
 .nav-menu-item{
   display:flex;align-items:center;justify-content:space-between;
   padding:10px 16px;font-size:.85rem;gap:8px;
@@ -449,8 +450,6 @@ footer .footer-links a:hover{color:#fff;}
   .nav-btn{padding:4px 8px;font-size:.78rem;}
   .nav-btn .caret{display:none;}
 
-  /* ドロップダウン：右端ははみ出ないようright:0に */
-  .nav-dropdown:last-child .nav-dropdown-menu{left:auto;right:0;}
   .nav-dropdown-menu{min-width:180px;font-size:.82rem;}
   .nav-menu-item{padding:10px 14px;font-size:.82rem;}
 
