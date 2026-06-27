@@ -36,9 +36,8 @@ def sync(path):
     return False
 
 def main():
-    targets = ["index.html", "shizuoka/index.html", "tokyo/index.html",
-               "osaka/index.html", "hokkaido/index.html", "fukuoka/index.html",
-               "kyoto/index.html", "okinawa/index.html", "nagoya/index.html", "kanagawa/index.html"]
+    # トップ＋全エリアページを自動対象化（LIVEの各slug/index.html）
+    targets = ["index.html"] + [f"{slug}/index.html" for slug, _ in LIVE]
     done = []
     for t in targets:
         p = os.path.join(BASE, t)
