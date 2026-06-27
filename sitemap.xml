@@ -332,4 +332,11 @@
   </url>
   <url><loc>https://dokoriaru.com/about/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://dokoriaru.com/contact/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dokoriaru.com/tokyo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dokoriaru.com/spots/asakusa/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dokoriaru.com/spots/shibuya/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dokoriaru.com/spots/skytree/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dokoriaru.com/spots/tokyo-tower/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dokoriaru.com/spots/meiji-jingu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dokoriaru.com/spots/ueno/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
