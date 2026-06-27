@@ -8,7 +8,8 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 LIVE = [("shizuoka", "🗾 静岡"), ("tokyo", "🗼 東京"), ("osaka", "🏯 大阪"),
         ("hokkaido", "🐻 北海道"), ("fukuoka", "🍜 福岡"), ("kyoto", "🌸 京都"),
         ("okinawa", "🌺 沖縄"), ("nagoya", "🏯 名古屋"), ("kanagawa", "⛩ 神奈川"),
-        ("hiroshima", "🍁 広島"), ("sendai", "🌾 宮城"), ("kanazawa", "🏮 金沢")]
+        ("hiroshima", "🍁 広島"), ("sendai", "🌾 宮城"), ("kanazawa", "🏮 金沢"),
+        ("nagano", "⛰ 長野")]
 COMING = []
 
 def menu_items():
