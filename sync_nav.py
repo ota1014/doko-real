@@ -6,8 +6,8 @@ import os, re, glob
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 LIVE = [("shizuoka", "🗾 静岡"), ("tokyo", "🗼 東京"), ("osaka", "🏯 大阪"),
-        ("hokkaido", "🐻 北海道"), ("fukuoka", "🍜 福岡")]
-COMING = [("🌸 京都"), ("🌺 沖縄")]
+        ("hokkaido", "🐻 北海道"), ("fukuoka", "🍜 福岡"), ("kyoto", "🌸 京都")]
+COMING = [("🌺 沖縄")]
 
 def menu_items():
     s = ""
@@ -34,7 +34,8 @@ def sync(path):
 
 def main():
     targets = ["index.html", "shizuoka/index.html", "tokyo/index.html",
-               "osaka/index.html", "hokkaido/index.html", "fukuoka/index.html"]
+               "osaka/index.html", "hokkaido/index.html", "fukuoka/index.html",
+               "kyoto/index.html", "okinawa/index.html", "nagoya/index.html", "kanagawa/index.html"]
     done = []
     for t in targets:
         p = os.path.join(BASE, t)
