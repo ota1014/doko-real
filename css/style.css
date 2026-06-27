@@ -508,3 +508,36 @@ footer .footer-links a:hover{color:#fff;}
   footer{padding:32px 16px;}
   footer .footer-links{flex-wrap:wrap;gap:12px;}
 }
+
+/* スポット解説記事（AdSense対策の独自コンテンツ） */
+.spot-article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:32px 32px 28px;box-shadow:var(--shadow);margin-bottom:36px;}
+.article-head{font-size:1.15rem;font-weight:800;color:var(--navy);padding-bottom:14px;margin-bottom:18px;border-bottom:2px solid var(--primary);}
+.article-lead{color:#3a3a3a;line-height:2;font-size:1rem;margin-bottom:8px;}
+.article-h{display:flex;align-items:center;gap:8px;font-size:1.06rem;font-weight:700;color:var(--navy);margin:28px 0 14px;}
+.article-h span{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;background:rgba(255,107,74,.12);border-radius:8px;font-size:1rem;}
+.spot-article p{color:#444;line-height:1.95;}
+/* 見どころカード */
+.hl-list{display:grid;grid-template-columns:1fr;gap:12px;}
+.hl-item{background:var(--bg);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:10px;padding:16px 18px;}
+.hl-title{font-weight:700;color:var(--navy);margin-bottom:6px;font-size:.98rem;}
+.hl-body{color:#555;line-height:1.85;font-size:.93rem;}
+/* アクセス/シーズン 2カラム */
+.article-cols{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.article-cols .article-col p{font-size:.93rem;}
+/* ポイント箇条書き */
+.tips-list{list-style:none;padding:0;margin:0;}
+.tips-list li{position:relative;padding:8px 0 8px 26px;color:#444;line-height:1.85;font-size:.95rem;border-bottom:1px dashed var(--border);}
+.tips-list li:last-child{border-bottom:none;}
+.tips-list li::before{content:"✓";position:absolute;left:0;top:8px;color:var(--primary);font-weight:800;}
+/* FAQ */
+.faq-list{margin-top:4px;}
+.faq-item{border-top:1px solid var(--border);padding:16px 0;}
+.faq-item:first-child{border-top:none;}
+.faq-q{position:relative;font-weight:700;color:var(--navy);margin-bottom:8px;line-height:1.65;padding-left:28px;}
+.faq-q::before{content:"Q";position:absolute;left:0;top:-2px;width:20px;height:20px;line-height:20px;text-align:center;background:var(--primary);color:#fff;border-radius:6px;font-size:.78rem;}
+.faq-a{position:relative;color:#555;line-height:1.9;padding-left:28px;font-size:.94rem;}
+.faq-a::before{content:"A";position:absolute;left:0;top:-2px;width:20px;height:20px;line-height:20px;text-align:center;background:var(--navy);color:#fff;border-radius:6px;font-size:.78rem;}
+@media(max-width:600px){
+  .spot-article{padding:22px 18px 18px;}
+  .article-cols{grid-template-columns:1fr;gap:8px;}
+}
