@@ -6,16 +6,18 @@ import os, re, glob
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 LIVE = [("shizuoka", "🗾 静岡"), ("tokyo", "🗼 東京"), ("osaka", "🏯 大阪"),
-        ("hokkaido", "🐻 北海道"), ("fukuoka", "🍜 福岡"), ("kyoto", "🌸 京都")]
-COMING = [("🌺 沖縄")]
+        ("hokkaido", "🐻 北海道"), ("fukuoka", "🍜 福岡"), ("kyoto", "🌸 京都"),
+        ("okinawa", "🌺 沖縄")]
+COMING = []
 
 def menu_items():
     s = ""
     for slug, label in LIVE:
         s += f'        <a href="/{slug}/" class="nav-menu-item">{label} <span class="badge badge-live">掲載中</span></a>\n'
-    s += '        <div class="nav-menu-divider"></div>\n'
-    for label in COMING:
-        s += f'        <span class="nav-menu-item coming">{label} <span class="badge badge-soon">準備中</span></span>\n'
+    if COMING:
+        s += '        <div class="nav-menu-divider"></div>\n'
+        for label in COMING:
+            s += f'        <span class="nav-menu-item coming">{label} <span class="badge badge-soon">準備中</span></span>\n'
     return s
 
 def sync(path):
