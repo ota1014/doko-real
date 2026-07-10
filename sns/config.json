@@ -1,0 +1,12 @@
+{
+  "site": "https://dokoriaru.com",
+  "posts_per_run": 1,
+  "platforms": {
+    "x":         { "enabled": true,  "attach_card": true },
+    "threads":   { "enabled": true,  "attach_card": true },
+    "instagram": { "enabled": true,  "attach_card": true },
+    "tiktok":    { "enabled": true,  "mode": "slideshow" },
+    "youtube":   { "enabled": true,  "mode": "slideshow" }
+  },
+  "note": "enabled=trueでも該当プラットフォームのAPIキー(環境変数)が無ければ自動スキップ。キーを足した媒体から順に稼働する。"
+}

@@ -1,0 +1,67 @@
+name: ドコリアル SNS自動投稿
+
+# 毎日 JST 8:00 と 19:00 に自動投稿（UTC 23:00 / 10:00）。手動実行も可。
+on:
+  schedule:
+    - cron: "0 23 * * *"
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "実投稿せずキャプションだけ確認（true/false）"
+        default: "false"
+
+permissions:
+  contents: write   # state.json / cards をコミットするため
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 日本語フォント & ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk ffmpeg
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 依存インストール
+        run: pip install -q -r sns/requirements.txt
+
+      - name: 投稿データ最新化
+        run: python3 sns/build_queue.py
+
+      - name: SNS投稿
+        working-directory: sns
+        env:
+          RUN_STAMP: ${{ github.run_id }}
+          X_API_KEY:        ${{ secrets.X_API_KEY }}
+          X_API_SECRET:     ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:   ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET:  ${{ secrets.X_ACCESS_SECRET }}
+          THREADS_USER_ID:  ${{ secrets.THREADS_USER_ID }}
+          THREADS_TOKEN:    ${{ secrets.THREADS_TOKEN }}
+          IG_USER_ID:       ${{ secrets.IG_USER_ID }}
+          IG_TOKEN:         ${{ secrets.IG_TOKEN }}
+          TIKTOK_TOKEN:     ${{ secrets.TIKTOK_TOKEN }}
+          YT_CLIENT_ID:     ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 post.py --dry-run
+          else
+            python3 post.py
+          fi
+
+      - name: ローテーション状態を保存
+        run: |
+          git config user.name  "dokoriaru-bot"
+          git config user.email "bot@dokoriaru.com"
+          git add sns/state.json sns/spots_data.json sns/cards || true
+          git diff --cached --quiet || git commit -m "chore(sns): rotate state [skip ci]"
+          git push || true
