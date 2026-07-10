@@ -94,13 +94,18 @@ def _png_hook(text, out):
     img.save(out)
 
 def _png_sub(text, out):
+    """箱付きテロップ（TikTok/バラエティ風）。半透明ダーク箱＋白太字＋縁取り。"""
     from PIL import Image, ImageDraw, ImageFont
     fp = _fontpath()
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
-    f = ImageFont.truetype(fp, 50)
-    tw = d.textlength(text, font=f); x = (W - tw) / 2; y = 1520
+    f = ImageFont.truetype(fp, 58)
+    tw = d.textlength(text, font=f)
+    x = (W - tw) / 2; y = 1470
+    pad_x, pad_y = 34, 18
+    d.rounded_rectangle([x - pad_x, y - pad_y, x + tw + pad_x, y + 78 + pad_y],
+                        radius=20, fill=(20, 20, 40, 205))
     d.text((x, y), text, font=f, fill=(255, 255, 255, 255),
-           stroke_width=6, stroke_fill=(20, 20, 40, 255))
+           stroke_width=4, stroke_fill=(0, 0, 0, 255))
     img.save(out)
 
 # ---------- 本体 ----------
@@ -138,10 +143,15 @@ def build_short(row, out_mp4):
 
     # 3) ベーススライドショー（zoompanのみ・テキストなし）
     n = len(imgs); seg = max(2.6, D / n); parts = []
+    # Ken-Burns: 1.4倍キャンバス内を1080x1920窓でパン。方向を画像ごとに変えて単調さを回避。
+    # （zoompanは当環境で激遅のため、高速なcrop式アニメで実装）
+    presets = [(0, 0.5, 1, 0.5), (0.5, 0, 0.5, 1), (1, 0.5, 0, 0.5), (0.5, 1, 0.5, 0)]
     for i, im in enumerate(imgs):
         out = wp(f"s{i}.mp4")
-        # 静止スライド（cover配置）。zoompanは当環境で低速のため不使用。動きは字幕とEndで担保。
-        vf = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30"
+        sx, sy, ex, ey = presets[i % 4]
+        vf = ("scale=1512:2688:force_original_aspect_ratio=increase,crop=1512:2688,"
+              f"crop=1080:1920:x='(iw-1080)*({sx}+({ex}-{sx})*t/{seg:.2f})':"
+              f"y='(ih-1920)*({sy}+({ey}-{sy})*t/{seg:.2f})',setsar=1,fps=30")
         subprocess.run(["ffmpeg", "-y", "-loop", "1", "-t", f"{seg:.2f}", "-i", im["path"],
                         "-vf", vf, "-r", "30", "-c:v", "libx264", "-preset", "veryfast",
                         "-pix_fmt", "yuv420p", out], capture_output=True)
