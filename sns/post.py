@@ -41,19 +41,26 @@ def main():
         if not os.path.exists(card_local):
             A.make_card(row, card_local) if not DRY else None
             card_local = card_local if os.path.exists(card_local) else None
-        # 動画（TikTok/YouTube用）は都度生成
-        video = None
+        # Short動画（TikTok/YouTube用）は都度生成。実写(Wikimedia)＋AI音声＋字幕。
+        video, attribution = None, ""
         if any(plat_cfg.get(p, {}).get("enabled") and P._env(*{
                     "tiktok": ["TIKTOK_TOKEN"],
                     "youtube": ["YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"]}[p])
                for p in ("tiktok", "youtube")) and not DRY:
-            video = A.make_slideshow(row, os.path.join(tempfile.gettempdir(), f"{slug}.mp4"))
+            import video as V
+            video, attribution = V.build_short(row, os.path.join(tempfile.gettempdir(), f"{slug}.mp4"))
 
         print(f"\n=== {row['name']} ({slug}) ===")
         for plat, builder in C.BUILDERS.items():
             if not plat_cfg.get(plat, {}).get("enabled"):
                 continue
             payload = builder(row)
+            # CC素材の出典を概要欄/キャプションへ付与（ライセンス順守）
+            if attribution:
+                if plat == "youtube":
+                    payload["description"] += "\n\n" + attribution
+                elif plat == "tiktok":
+                    payload += "\n" + attribution
             if DRY:
                 print(f"[{plat}] DRY-RUN\n{payload if isinstance(payload,str) else payload['title']}")
                 continue

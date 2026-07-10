@@ -11,8 +11,11 @@ GitHub Actions (cron 1日2回)
   → state.json       ローテ位置を自動記録（次回は続きから）
 ```
 - **キーを登録した媒体だけ**が自動で稼働（未登録は自動スキップ）。1媒体ずつ足せる。
-- 投稿画像はロゴ＋テキストの**自前ブランドカード**（`cards/`）＝第三者写真を使わず著作権クリーン。
-- カードは `https://dokoriaru.com/sns/cards/{slug}.jpg` で公開（Instagram/Threadsが参照）。
+- **フィード投稿（X/Threads/Instagram）**：ロゴ＋テキストの自前ブランドカード（`cards/`）＝第三者写真不使用で著作権クリーン。`https://dokoriaru.com/sns/cards/{slug}.jpg` で公開（IG/Threadsが参照）。
+- **Short動画（TikTok/YouTube Shorts）**：`video.py` が自動生成。
+  - Wikimedia Commonsの**その場所の実写**（CC/パブリックドメインのみ・出典を概要欄へ自動記載）
+  - **AI音声ナレーション**（edge-tts / ja-JP-NanamiNeural・キー不要）＋フレーズ実測の**同期字幕**を焼き込み
+  - 冒頭フック＋スポット名＋ブランドEndカード。実写が乏しいスポットはブランドカードで代替。
 
 ## 太田さんの作業：APIキーを GitHub Secrets に登録
 リポジトリ **ota1014/doko-real** → Settings → Secrets and variables → Actions → New repository secret
