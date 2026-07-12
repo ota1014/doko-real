@@ -1,0 +1,42 @@
+name: ドコリアル Short動画 サンプル生成（検証用）
+
+# 投稿はせず、指定スポットのShort動画を1本生成してArtifactに上げる。
+# 本番Actions環境（フォント/edge-tts/ffmpeg/Wikimedia）が通るかの確認用。
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "生成するスポットのslug"
+        default: "beppu-onsen"
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 日本語フォント & ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk ffmpeg
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 依存インストール（Pillow / edge-tts）
+        run: pip install -q Pillow edge-tts
+
+      - name: 投稿データ最新化
+        run: python3 sns/build_queue.py
+
+      - name: サンプル動画を生成
+        working-directory: sns
+        run: python3 make_sample.py "${{ github.event.inputs.slug }}"
+
+      - name: 動画をArtifactにアップロード
+        uses: actions/upload-artifact@v4
+        with:
+          name: dokoriaru-short-${{ github.event.inputs.slug }}
+          path: sns/sample/*.mp4
+          if-no-files-found: error
