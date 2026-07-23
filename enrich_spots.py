@@ -265,10 +265,13 @@ def process(path: str, client, dry_run: bool, articles: dict) -> str:
         art = generate_article(info, client)
     block = build_block(info["name"], art)
 
-    # 動画セクションの直前に挿入
-    anchor = '<div class="video-section reveal">'
+    # 動画ファースト構成: 動画セクションの後（アフィリエイトセクションの直前）に挿入
+    anchor = '<div class="affiliate-section reveal">'
     if anchor not in content:
-        return "noanchor"
+        # アフィリ枠が無いページは従来どおり動画セクションの直前
+        anchor = '<div class="video-section reveal">'
+        if anchor not in content:
+            return "noanchor"
     new_content = content.replace(anchor, block + "\n  " + anchor, 1)
     new_content = fix_footer(new_content)
 
