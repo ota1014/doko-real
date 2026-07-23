@@ -5,12 +5,12 @@ import os, re, glob
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
-LIVE = [("shizuoka", "🗾 静岡"), ("tokyo", "🗼 東京"), ("osaka", "🏯 大阪"),
-        ("hokkaido", "🐻 北海道"), ("fukuoka", "🍜 福岡"), ("kyoto", "🌸 京都"),
-        ("okinawa", "🌺 沖縄"), ("nagoya", "🏯 名古屋"), ("kanagawa", "⛩ 神奈川"),
-        ("hiroshima", "🍁 広島"), ("sendai", "🌾 宮城"), ("kanazawa", "🏮 金沢"),
-        ("nagano", "⛰ 長野"), ("nara", "🦌 奈良"), ("gifu", "🏔 岐阜"),
-        ("kobe", "⚓ 神戸"), ("nagasaki", "⛪ 長崎"), ("oita", "♨️ 大分")]
+LIVE = [("shizuoka", "🗾 静岡"), ("hokkaido", "🐻 北海道"), ("sendai", "🌾 宮城"),
+        ("tokyo", "🗼 東京"), ("kanagawa", "⛩ 神奈川"), ("nagano", "⛰ 長野"),
+        ("kanazawa", "🏮 金沢"), ("gifu", "🏔 岐阜"), ("nagoya", "🏯 名古屋"),
+        ("kyoto", "🌸 京都"), ("osaka", "🏯 大阪"), ("kobe", "⚓ 神戸"),
+        ("nara", "🦌 奈良"), ("hiroshima", "🍁 広島"), ("fukuoka", "🍜 福岡"),
+        ("nagasaki", "⛪ 長崎"), ("oita", "♨️ 大分"), ("okinawa", "🌺 沖縄")]
 COMING = []
 
 def menu_items():
