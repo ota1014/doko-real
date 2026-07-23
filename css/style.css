@@ -66,6 +66,15 @@ nav a:hover{color:var(--primary);}
 }
 a.nav-menu-item:hover{background:var(--bg);color:var(--navy);}
 .nav-menu-item.coming{opacity:.45;cursor:default;pointer-events:none;}
+
+/* 地方グループ(ナビドロップダウン) */
+.nav-menu-group{padding:8px 14px 4px;font-size:.68rem;font-weight:700;letter-spacing:.08em;color:var(--text-sub);text-transform:none;}
+.nav-menu-group:not(:first-child){border-top:1px solid var(--border);margin-top:4px;}
+/* 地方グループ(トップページ) */
+.region-group-title{font-size:1.05rem;font-weight:800;margin:36px 0 4px;display:flex;align-items:center;gap:10px;}
+.region-group-title::after{content:"";flex:1;height:1px;background:var(--border);}
+.region-group-title:first-of-type{margin-top:8px;}
+
 .nav-menu-divider{height:1px;background:var(--border);margin:4px 0;}
 .badge{font-size:.65rem;font-weight:700;padding:2px 8px;border-radius:20px;}
 .badge-live{background:var(--primary);color:#fff;}

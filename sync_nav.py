@@ -5,18 +5,30 @@ import os, re, glob
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
-LIVE = [("hokkaido", "🐻 北海道"), ("sendai", "🌾 宮城"), ("tokyo", "🗼 東京"), ("kanagawa", "⛩ 神奈川"), ("kanazawa", "🏮 金沢"), ("nagano", "⛰ 長野"), ("gifu", "🏔 岐阜"), ("shizuoka", "🗾 静岡"), ("nagoya", "🏯 名古屋"), ("kyoto", "🌸 京都"), ("osaka", "🏯 大阪"), ("kobe", "⚓ 神戸"), ("nara", "🦌 奈良"), ("hiroshima", "🍁 広島"), ("fukuoka", "🍜 福岡"), ("nagasaki", "⛪ 長崎"), ("oita", "♨️ 大分"), ("okinawa", "🌺 沖縄")]
+GROUPS = [
+    ("北海道・東北", [("hokkaido", "🐻 北海道"), ("sendai", "🌾 宮城")]),
+    ("関東", [("tokyo", "🗼 東京"), ("kanagawa", "⛩ 神奈川")]),
+    ("中部・北陸", [("kanazawa", "🏮 石川"), ("nagano", "⛰ 長野"), ("gifu", "🏔 岐阜"),
+                  ("shizuoka", "🗾 静岡"), ("nagoya", "🏯 愛知")]),
+    ("近畿", [("kyoto", "🌸 京都"), ("osaka", "🏯 大阪"), ("kobe", "⚓ 兵庫"), ("nara", "🦌 奈良")]),
+    ("中国", [("hiroshima", "🍁 広島")]),
+    ("九州・沖縄", [("fukuoka", "🍜 福岡"), ("nagasaki", "⛪ 長崎"), ("oita", "♨️ 大分"), ("okinawa", "🌺 沖縄")]),
+]
+LIVE = [item for _, items in GROUPS for item in items]
 COMING = []
 
 def menu_items():
     s = ""
-    for slug, label in LIVE:
-        s += f'        <a href="/{slug}/" class="nav-menu-item">{label} <span class="badge badge-live">掲載中</span></a>\n'
+    for region, items in GROUPS:
+        s += f'        <div class="nav-menu-group">{region}</div>\n'
+        for slug, label in items:
+            s += f'        <a href="/{slug}/" class="nav-menu-item">{label} <span class="badge badge-live">掲載中</span></a>\n'
     if COMING:
         s += '        <div class="nav-menu-divider"></div>\n'
         for label in COMING:
             s += f'        <span class="nav-menu-item coming">{label} <span class="badge badge-soon">準備中</span></span>\n'
     return s
+
 
 def sync(path):
     c = open(path, encoding="utf-8").read()
