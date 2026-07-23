@@ -1,454 +1,1065 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dokoriaru.com</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://dokoriaru.com/</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/shizuoka/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/tokyo/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/osaka/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/hokkaido/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/fukuoka/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/kyoto/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/okinawa/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/nagoya/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/kanagawa/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/hiroshima/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/sendai/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/kanazawa/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/nagano/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/nara/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/gifu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/kobe/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/nagasaki/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/oita/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/air-park/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/akiu-otaki/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/american-village/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/arashiyama/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/arima-onsen/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/asagiri-kogen/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/asahiyama-zoo/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/asakusa/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/atami/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/atsuta-jingu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/beppu-jigoku/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/beppu-onsen/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/canal-city/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/cape-manza/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/cha-museum/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/churaumi/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/dazaifu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/dejima/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/dogashima/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/dotonbori/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/enoshima/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/fujisan-hongu/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/fukuoka-tower/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/fumotoppara/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/furano/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/fushimi-inari/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/gakki-museum/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/genbegawa/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/gero-onsen/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/ghibli-park/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/gion/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/glover-garden/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/gujo-hachiman/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/gunkanjima/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/hakodate/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/hakone/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/hamamatsu-castle/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/hamamatsu-flowerpark/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/hamanako/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/higashi-chaya/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/himeji-castle/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/hiroshima-castle/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/hiroshima-okonomiyaki/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/horaibashi/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/horyuji/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/inasayama/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/irozaki/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/itoshima/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/itsukushima/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/izu-panorama/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/jigokudani-monkey/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/jogasaki/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/joren-falls/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kaiyukan/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/kakegawa-castle/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/kakegawa-kachoen/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/kakitagawa/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kamakura-daibutsu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kamikochi/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kanazawa-21museum/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kanazawa-castle/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kanazawa-station/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/kanukiyama/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/kanzanji-onsen/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/karuizawa/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kasuga-taisha/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kenrokuen/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kinkakuji/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kitano-ijinkan/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kiyomizu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kobe-harbor/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kofukuji/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kokonoe-bridge/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kokusai-dori/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/kouri-island/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/kunozan/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/lovelinevision/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/matsumoto-castle/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/matsushima/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/megane-bridge/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/meiji-jingu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/mihonoseki/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/minatomirai/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/mishima/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/mishima-skywalk/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/mishima-taisha/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/monet-pond/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/mt-rokko-maya/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/nagoya-aquarium/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/nagoya-castle/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/nakasu-yatai/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/nakatajima-dune/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/nankinmachi/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/nara-park/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/narai-juku/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/naramachi/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/nihondaira/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/nirayama-hansharyo/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/nishiki-market/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/numazu-aquarium/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/numazu-byuo/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/numazu-goyotei/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/numazu-ino/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/numazu-port/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/numazu-port-dining/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/oasis21/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/obuchinanbasaba/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/ohori-park/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/oigawa-sl/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/omaezaki-lighthouse/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/omicho-market/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/omuroyama/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/onomichi/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/osaka-castle/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/osezaki/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/osu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/otaru-canal/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/oura-church/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/peace-memorial/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/rakujuen/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/ryugashido/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/sapporo/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/senbonmatsubara/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/sendai-castle/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/sendai-gyutan/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/shibuya/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/shimanami-kaido/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/shinhotaka/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/shiraito-falls/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/shirakawago/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/shirogane-blue-pond/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/shizuoka-sengen/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/shurijo/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/shuzenji/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/skytree/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/sunpu-castle/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/takasakiyama/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/takayama/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/tanuki-lake/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/todaiji/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/tokyo-tower/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/tsurugaoka-hachimangu/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/tsutenkaku/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/ueno/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/umeda-sky/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/umitamago/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/unagipai-factory/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/usj/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/yaizu-sakana/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/yokohama-chinatown/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/yufuin/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dokoriaru.com/spots/yumenotsuribashi/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-  <url><loc>https://dokoriaru.com/about/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://dokoriaru.com/contact/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://dokoriaru.com/tokyo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/asakusa/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/shibuya/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/skytree/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/tokyo-tower/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/meiji-jingu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/ueno/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/osaka/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/dotonbori/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/osaka-castle/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/usj/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/tsutenkaku/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kaiyukan/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/umeda-sky/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/hokkaido/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/otaru-canal/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/sapporo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/furano/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/hakodate/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/asahiyama-zoo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/shirogane-blue-pond/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/fukuoka/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/dazaifu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/nakasu-yatai/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/fukuoka-tower/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/ohori-park/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/itoshima/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/canal-city/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/kyoto/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/fushimi-inari/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kiyomizu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/arashiyama/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kinkakuji/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/gion/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/nishiki-market/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/okinawa/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/churaumi/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/shurijo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kokusai-dori/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kouri-island/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/cape-manza/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/american-village/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/nagoya/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/nagoya-castle/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/atsuta-jingu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/osu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/nagoya-aquarium/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/oasis21/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/ghibli-park/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/kanagawa/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kamakura-daibutsu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/enoshima/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/hakone/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/yokohama-chinatown/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/minatomirai/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/tsurugaoka-hachimangu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/hiroshima/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/itsukushima/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/peace-memorial/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/onomichi/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/shimanami-kaido/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/hiroshima-castle/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/hiroshima-okonomiyaki/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/sendai/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/matsushima/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/zuihoden/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/sendai-castle/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/akiu-otaki/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/zao-okama/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/sendai-gyutan/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/kanazawa/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kenrokuen/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kanazawa-castle/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/higashi-chaya/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/omicho-market/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kanazawa-21museum/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kanazawa-station/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/nagano/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/zenkoji/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/matsumoto-castle/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kamikochi/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/jigokudani-monkey/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/karuizawa/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/narai-juku/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/nara/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/todaiji/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/nara-park/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kasuga-taisha/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/horyuji/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kofukuji/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/naramachi/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/gifu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/takayama/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/shirakawago/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/gero-onsen/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/shinhotaka/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/gujo-hachiman/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/monet-pond/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/kobe/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kobe-harbor/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kitano-ijinkan/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/nankinmachi/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/arima-onsen/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/himeji-castle/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/mt-rokko-maya/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/nagasaki/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/glover-garden/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/gunkanjima/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/inasayama/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/dejima/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/oura-church/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/megane-bridge/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/oita/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/beppu-jigoku/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/yufuin/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/takasakiyama/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/umitamago/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/beppu-onsen/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dokoriaru.com/spots/kokonoe-bridge/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://dokoriaru.com/spots/zao-okama/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/zenkoji/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/spots/zuihoden/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/about/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/contact/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dokoriaru.com/privacy/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

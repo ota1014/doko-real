@@ -186,11 +186,16 @@ def build_area_page(cfg, spots):
 
 
 def update_sitemap(cfg, spots):
+    import datetime
     p = os.path.join(BASE, "sitemap.xml"); c = open(p, encoding="utf-8").read()
-    urls = [f"https://dokoriaru.com/{cfg['region_slug']}/"] + \
-           [f"https://dokoriaru.com/spots/{s['slug']}/" for s in spots]
-    add = "".join(f'  <url><loc>{u}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
-                  for u in urls if u not in c)
+    today = datetime.date.today().isoformat()
+    area_url = f"https://dokoriaru.com/{cfg['region_slug']}/"
+    spot_urls = [f"https://dokoriaru.com/spots/{s['slug']}/" for s in spots]
+    entries = [(area_url, "0.8", "weekly")] + [(u, "0.6", "monthly") for u in spot_urls]
+    add = "".join(
+        f'  <url><loc>{u}</loc><lastmod>{today}</lastmod><changefreq>{freq}</changefreq><priority>{pri}</priority></url>\n'
+        for (u, pri, freq) in entries if u not in c
+    )
     if add:
         c = c.replace("</urlset>", add + "</urlset>")
         open(p, "w", encoding="utf-8").write(c)
